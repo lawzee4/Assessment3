@@ -1,0 +1,21 @@
+ERROR:root:An error occurred during sales data loading: [Errno 2] No such file or directory: 'train.csv'
+ERROR:root:An error occurred during features data loading: [Errno 2] No such file or directory: 'features.csv'
+ERROR:root:An error occurred during sales data loading: [Errno 2] No such file or directory: 'train.csv'
+ERROR:root:An error occurred during features data loading: [Errno 2] No such file or directory: 'features.csv'
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date
+ERROR:root:SQLite error occurred: UNIQUE constraint failed: features.Store, features.Date

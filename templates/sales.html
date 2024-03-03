@@ -1,0 +1,61 @@
+<!-- sales.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Data</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Data</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Weekly Sales</th>
+            <th>Store</th>
+            <th>Dept</th>
+            <th>Is Holiday</th>
+        </tr>
+        {% for sale in sales_data %}
+        <tr>
+            <td>{{ sale[0] }}</td>
+            <td>{{ sale[1] }}</td>
+            <td>{{ sale[2] }}</td>
+            <td>{{ sale[3] }}</td>
+            <td>{{ sale[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!-- features.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Data</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Features Data</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Temperature</th>
+            <th>Fuel Price</th>
+            <th>MarkDown1</th>
+            <th>MarkDown2</th>
+            <th>MarkDown3</th>
+            <th>MarkDown4</th>
+            <th>MarkDown5</th>
+            <th>CPI</th>
+            <th>Unemployment</th>
+        </tr>
+        {% for feature in features_data %}
+        <tr>
+            <td>{{ feature[0] }}</td>
+            <td>{{ feature[1] }}</td>
+            <td>{{ feature[2] }}</td>
+            <td>{{ feature[3] }}</td>
+            <td>{{ feature[4] }}</td>
+            <td>{{ feature[5] }}</td>
+            <td>{{ feature[6] }}</td>
+            <td>{{ feature[7] }}</td>
+            <td>{{ feature[8] }}</td>
+            <td>{{ feature[9] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
